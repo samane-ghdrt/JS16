@@ -18,9 +18,22 @@ let positionY = 0;
 document.addEventListener("keydown", moveCircle);
 
 function moveCircle(e) {
+
   // write code here
-  // switch (e.key) {
-  // }
+   switch (e.key) {
+    case "ArrowLeft":
+      circle.style.left =`${positionX-=5}px`;
+    break;
+    case "ArrowRight":
+      circle.style.left =`${positionX+=5}px`;
+    break;
+    case"ArrowUp":
+     circle.style.top =`${positionY-=1}px`;
+    break;
+    case"ArrowDown":
+    circle.style.top =`${positionY+=1}px`;
+    break;
+   }
 
   // circle.style.left = //?
   // circle.style.top = //?
