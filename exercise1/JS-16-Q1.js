@@ -5,12 +5,7 @@ const heart =document.querySelector('.cards__card__img__icon i');
 const counter =document.querySelector('.cards__card__img__icon__text');
 heart.addEventListener("click",function(e){
 e.target.style.backgroundColor="#e15c8f";
-let i=parseInt(counter.textContent);
-while(i<120){
-    i++;
-    counter.textContent=i;
-
-}
+counter.textContent=parseInt(counter.textContent)+1;
 
 })
 
