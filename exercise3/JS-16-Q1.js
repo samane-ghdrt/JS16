@@ -2,3 +2,10 @@
 //Note: your code should log the text content of the clicked button to the console.
 
 // ! answer ===========================================
+const parent=document.querySelector('.parent button');
+parent.addEventListener('click', (event) => {
+    // Check if the clicked element is a button
+    if (event.target.tagName === 'BUTTON') {
+      console.log(event.target.textContent);
+    }
+  });
