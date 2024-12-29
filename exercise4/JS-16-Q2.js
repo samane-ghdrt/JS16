@@ -12,7 +12,7 @@ const makeRandColor = () => {
 const buttons = document.querySelectorAll("button");
 
 for (let button of buttons) {
-  button.addEventListener("click", () => {
+  button.addEventListener("click",function () {
     console.log(this);
     console.dir(this);
     button.style.backgroundColor = makeRandColor();
@@ -22,7 +22,7 @@ for (let button of buttons) {
 
 const h1s = document.querySelectorAll("h1");
 for (let h1 of h1s) {
-  h1.addEventListener("click", () => {
+  h1.addEventListener("click",function () {
     console.log(this);
     console.dir(this);
     h1.style.backgroundColor = makeRandColor();
