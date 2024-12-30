@@ -9,6 +9,29 @@
     border-radius: 25px;
     background-color: rgb(242, 192, 132);
     position: absolute;
-    left: 70px;
+    left: 50px;
     top:150px;
+}
+.img{
+    width: 34vw;
+    height: 35vh;
+    position: absolute;
+    right: 0px;
+    top:160px;
+}
+.buttons{
+position: absolute;
+right: 34vw;
+top:160px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+border-radius: 5px;
+}
+.input{
+    position: absolute;
+left: 15vw;
+top:130px;
+width: 300px;
+height: 100px;
 }
